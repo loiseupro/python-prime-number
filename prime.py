@@ -5,9 +5,9 @@ def isPrime(num):
 	for i in range(0, num):
 		i+=1
 		if (num%i == 0):
-			cont+=1; 
+			cont+=1;
 
 	if cont == 2:
-		return True;
+		return True
 	
-	return False;
+	return False
